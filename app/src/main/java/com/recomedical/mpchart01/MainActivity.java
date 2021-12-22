@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mpLineChart=(LineChart) findViewById(R.id.chart1);
+        mpLineChart = (LineChart) findViewById(R.id.chart1);
         LineDataSet lineDataSet1 = new LineDataSet(dataValues1(),"Data Set 1");
         ArrayList<ILineDataSet> dataSets = new ArrayList<>();
         dataSets.add(lineDataSet1);
